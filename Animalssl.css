@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+}
+
+.active {
+    color: rgb(122, 91, 5);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 30px;
+
+}
+
+.logo {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 155px;
+    height: 100px;
+    float: left;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.checkbtn {
+    color: #ffff;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    display: none;
+
+
+}
+
+#check {
+    display: none;
+}
+/*Header Content*/
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./animalslcoverimg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: rgb(122, 91, 5);
+    margin: 10px auto;
+    border-radius: 5px;
+
+
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.ctn {
+    padding: 8px 15px;
+    background-color: rgb(122, 91, 5);
+    border-radius: 30px;
+    color: whitesmoke;
+
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+/*introduction*/
+p{
+    
+    padding: 40px;
+    font-size: 3vmin;
+    width: 70%;
+    justify-content: center;
+}
